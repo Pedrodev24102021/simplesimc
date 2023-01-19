@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600&family=Cinzel:wght@600&family=Fjalla+One&family=Raleway:wght@200&family=Sofia+Sans:wght@500&display=swap" rel="stylesheet">
+  <title>IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <video autoplay muted loop>
+    <source src="./movie/oceano.mp4">
+  </video>
+  <form>
+    <label for="">Nome</label>
+    <input type="text" placeholder="Digite o seu nome" id="nome">
+    <label for="">Altura</label>
+    <input type="number" placeholder="Digite o sua altura" id="altura">
+    <label for="">Peso</label>
+    <input type="number" placeholder="Digite o seu peso" id="peso">
+    <h2 id="btn">Enviar</h2>
+    <h3 id="inputresultado">
+    </h3>
+    <button id="btnabaixo" class="desativado">Dicas</button>
+    <button id="btnregular" class="desativado">Dicas</button>
+    <button id="btnacima" class="desativado">Dicas</button>
+  </form>
+  <div id="dicaumlocal" class="desativado">
+    <h1>Dicas</h1>
+    <ul>
+      <li>Aumentar a ingestão de carboidratos e proteinas</li>
+      <li>Praticar atividades fisicas como natação ou academia</li>
+      <li>Dormir adequadamente 8 horas por dia</li>
+    </ul>
+  </div>
+  <div id="dicadoislocal" class="desativado">
+    <h1>Dicas</h1>
+    <ul>
+      <li>Manter a ingestão de carboidratos e proteinas</li>
+      <li>Praticar atividades fisicas como natação ou academia</li>
+      <li>Dormir adequadamente 8 horas por dia</li>
+    </ul>
+  </div>
+  <div id="dicatreslocal" class="desativado">
+    <h1>Dicas para acima</h1>
+    <ul>
+
+      <li>Praticar atividades fisicas como natação ou academia</li>
+      <li>Dormir adequadamente 8 horas por dia</li>
+    </ul>
+  </div>
+
+  <script src="/imc/main.js"></script>
+</body>
+
+</html>
